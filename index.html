@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Правила флуда Azure Shadows: активность, поведение, роли, администрация, ВП, жалобы. И вкладка с сообщениями группы.">
+  <title>Правила — Azure Shadows</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">К содержимому</a>
+
+  <header class="head">
+    <div class="soul" aria-hidden="true">
+      <i style="--s:#e5484d"></i><i style="--s:#f76b15"></i><i style="--s:#ffd60a"></i><i
+      style="--s:#7bc4ff"></i><i style="--s:#46a758"></i><i style="--s:#4a68f7"></i><i style="--s:#8f7ef7"></i>
+    </div>
+    <h1>Правила Azure Shadows</h1>
+    <p class="lead">Норма 70 · чистка в воскресенье в 17:00 по мск</p>
+    <nav class="tabs" aria-label="Разделы сайта">
+      <a id="tab-rules" href="#/">Правила</a>
+      <a id="tab-wall" href="#/wall">Живой чат</a>
+    </nav>
+  </header>
+
+  <main id="content" class="content">
+    <section id="view-rules" aria-labelledby="rules-title">
+      <h2 id="rules-title" tabindex="-1">Полный список — 96 пунктов</h2>
+      <div id="rules"></div>
+    </section>
+
+    <section id="view-wall" aria-labelledby="wall-title" hidden>
+      <h2 id="wall-title" tabindex="-1">Живой чат</h2>
+      <div class="wall-meta">
+        <p id="wall-status"></p>
+        <button id="wall-refresh" type="button">Обновить</button>
+      </div>
+      <ol id="wall-list" class="wall"></ol>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Флуд по Deltarune, Undertale и АУ. Инфо-канал: <a href="https://t.me/azureshadowsinfo">t.me/azureshadowsinfo</a>.</p>
+  </footer>
+
+  <script src="rules.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
